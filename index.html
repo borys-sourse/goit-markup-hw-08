@@ -21,12 +21,37 @@
 <body>
     <header class="header">
         <div class="container">
+            <nav class="navigation">
                 <a class="logo link" href="" lang="en">Web<span class="logo-theme_light">Studio</span></a>
+                <ul class="navigation__list list">
+                    <li class="navigation__item">
+                        <a class="navigation__link link active-link" href="">Студия</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
             <button type="button" class="burger__btn" data-menu-button>
                 <svg class="burger__icon">
                     <use href="./images/icons.svg#burger"></use>
                 </svg>
             </button>
+            <a class="contact-link contact-list__link link" href="mailto:info@devstudio.com">
+                <svg class="contact-list__icon">
+                    <use href="./images/icons.svg#envelope"></use>
+                </svg>
+                info@devstudio.com
+            </a>
+            <a class="tel-link tel-list__link link" href="tel:+380961111111">
+                <svg class="tel-list__icon">
+                    <use href="./images/icons.svg#smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+            </a>
          </div>
         <div class="mobile-menu" data-menu>
             <button type="button" class="mobile-menu__close-btn" data-menu-close>
@@ -67,6 +92,27 @@
                     <a href="" class="mobile-social__link link">LinkedIn</a>
                 </li>
             </ul>     
+        </div>
+        <div class="tablet-menu">
+            <ul class="tablet-menu__list list">
+               <li class="tablet-menu__item">
+                   <a href="" class="tablet-menu__link active-link link">Студия</a>
+               </li>
+               <li class="tablet-menu__item">
+                   <a href="" class="tablet-menu__link link">Портфолио</a>
+               </li>
+               <li class="tablet-menu__item">
+                   <a href="" class="tablet-menu__link link">Контакты</a>
+               </li>
+            </ul>
+            <ul class="tablet-contact__list list">
+                <li class="tablet-contact__item mobile-tel">
+                    <a class="tablet-tel__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li> 
+                <li class="tablet-contact__item mobile-mail">
+                    <a class="tablet-mail__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>   
         </div>
     </header>
     <main>
