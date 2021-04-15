@@ -1,25 +1,79 @@
+// .section-features {
+//   padding-top: var(--saction-pt-mob);
+//   padding-bottom: var(-saction-pb-mob);
+// }
+// // @media screen and (max-width:767px) {
+// //   .section-features {
+// //     width: 450px;
+// //   }
+// // }
 
-.features-list {
-    display: flex;
-    margin-left: -30px;
-    margin-top: -30px;
-  }
+// //  .features__container {
+// //   margin-top: 60px;
+// //   margin-bottom: 60px;
+// //   // width: 450px;
+// // }
 
-  .features-list__item {
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc(100% / 4 - 30px);
-  }
+// .features-list {
+//   // width:auto;
+//   // height: 226px;
+//   // margin-left: -30px;
+//   // margin-top: -30px;
+
+//  @media screen and (min-width:768px) {
+//    margin: -30px;
+   
+//     display: flex;
+//     flex-wrap: wrap;}
+// }
+
+
+// .features-list__item {
+//   // margin-top: 30px;
+//   // margin-bottom: 30px;
+//   @media screen and (min-width:768px) {
+//     width: calc(100% - 2 * 30px)/2;
+//     margin: 30px;
+//   }
+
+//   @media screen and (min-width:768px) {
+//     flex-basis: 50%;
+
+//     @media screen and (min-width:1200px) {
+//       flex-basis: 0.25;
+//   }
+
+//   &:not(:last-child) {
+//     @media screen and (max-width:767px) {
+//         margin-bottom: 30px;
+//       }
+//   }
+  
+// table
+
+
+
+// .features-list {
+//   display: flex;
+//   margin-left: -30px;
+//   margin-top: -30px;
+// }
+
+// .features-list__item {
+//     margin-left: 30px;
+//     margin-top: 30px;
+//     flex-basis: calc(100% / 4 - 30px);
+//   }
   
   .feature-container__list {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background: #f5f4fa;
-    border-radius: 4px;
+  //   width: 270px;
+  //   height: 120px;
+  //   margin-bottom: 30px;
+  //   background: #f5f4fa;
+  //   border-radius: 4px;
   }
   
   .features-list__icon {
@@ -33,6 +87,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
   
     color: #212121;
   
